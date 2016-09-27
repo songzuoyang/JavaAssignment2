@@ -3,6 +3,7 @@ import java.util.Scanner;
 
 public class ReverseVowels {
 	public static void main(String[] args) {
+		System.out.println("Please enter a word.");
 		Scanner input = new Scanner(System.in);
 		reverseVowels(input.next());
 		input.close();
